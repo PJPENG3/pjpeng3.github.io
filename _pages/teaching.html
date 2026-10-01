@@ -1,12 +1,44 @@
 ---
-layout: archive
+layout: single
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+{% capture teaching %}
+I have been a teaching assistant in the School of Industrial and Systems Engineering at the University of Oklahoma since 2024.
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## ISE 4804 – Ergonomics in Systems Design
+*Lab instructor · Spring 2025, Spring 2026*
+
+I teach the weekly lab sessions for this course. Students work in teams of three or four and write a technical report or executive summary for each lab.
+
+**Lab design.** I worked with the course instructor to plan and update the labs. The lab topics include:
+
+- How to write a good technical report
+- Evaluating the usability of a website (procedural and hierarchical task analysis)
+- Redesigning a pickup truck driver's workspace (structural anthropometry)
+- Risk assessment for manual lifting tasks (NIOSH lifting equation and Snook tables)
+- Evaluating and redesigning a drone control interface (KLM-GOMS and cognitive walkthrough)
+
+**Generative AI in the labs.** In Spring 2026 we added generative AI to the labs. The goal is to help students use AI well, not to let it do the work for them. I helped draft the plan:
+
+- Each lab focuses on one type of AI use. Examples are literature search, task planning, proofreading, and building a quick interface mock-up.
+- Students submit the prompts they used. They also write a short review of the AI output: what helped, what was wrong, and what they changed.
+
+## ISE 4663/5663 – Systems Analysis Using Simulation
+*Teaching assistant · Fall 2025, Fall 2026*
+
+- Teach six computer lab sessions. The lab topics include:
+  - Calculating system performance measures by hand
+  - Building a basic simulation model in Arena (a fast-food service line)
+  - Comparing serial and parallel processes (a loan application case)
+  - Modeling an electronic assembly and test system, and estimating inventory storage costs
+- Grade labs, mini-projects, and exams.
+
+## Data-Driven Decision Making II
+*Teaching assistant · Fall 2025*
+
+- Graded team project proposals and exams.
+{% endcapture %}
+{{ teaching | markdownify }}
