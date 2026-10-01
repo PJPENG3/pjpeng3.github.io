@@ -7,20 +7,28 @@ redirect_from:
   - /about.html
 ---
 
-{: .text-center}
-I am **Jingan Peng**, a **Ph.D. student** in  
-**Industrial & Systems Engineering**.  
-Research assistant at [Human Factors & Simulation Lab](https://humanfactors.oucreate.com/){:target="_blank"}.
+I am Jingan Peng (PJ), a Ph.D. student in Industrial & Systems Engineering at the University of Oklahoma. I work in the [Human Factors & Simulation Lab](https://human-factors-lab.github.io/){:target="_blank"} with Dr. Ziho Kang.
 
-My research focuses on **VR-based experiments**, **fNIRS signal analysis**, **eye-tracking**, and **human performance evaluation** in human-automation systems.
+I study how people think and act when they use complex systems. Most of my work uses virtual reality (VR) as the test setting. I measure brain activity with fNIRS and track where people look with eye tracking. I then build data methods to turn these signals into useful measures.
 
-I currently work on several projects involving:
+## Research Interests
 
-- VR arithmetic tasks combined with fNIRS to study cognitive workload and infrared interference  
-- Analysis of human comfort, trust, and behavior in ACC and CACC automated driving systems  
-- Motion artifact correction and signal-cleaning pipelines for fNIRS data  
-- VR educational interface design and learning performance assessment
+- Human factors and biometrics
+- fNIRS and eye-tracking data analysis
+- Human trust and comfort in vehicle automation
 
-Beyond research, I have hands-on experience building VR experiments, developing data-processing pipelines in Python and R, conducting peak-frequency and time-series analyses, and supporting simulation-based human factors studies. I also serve as a teaching assistant for Simulation and Data-Driven Decision Making.
+## Current Work
 
-My long-term goal is to develop reliable, data-driven methods that support human-centered system design, and to continue growing as an independent researcher working across VR, cognition, and human-automation interaction.
+- **Learning engagement in multi-person VR.** This is an NSF CAREER project. We use eye movements, hand interactions, and brain activity to measure how engaged people are when they learn together in VR.
+- **Cleaner fNIRS data in VR.** VR headsets with eye tracking add infrared noise to fNIRS signals. I developed a filtering method that removes this noise from data that has already been collected.
+- **Adaptive cruise control (ACC).** I simulate ACC in electric and gasoline vehicles. I then link the vehicle data to how drivers feel about safety and comfort.
+
+## News
+
+- **2026** – Paper on cognitive engagement in VR accepted to the HFES 70th International Annual Meeting.
+- **2026** – Paper on ACC in electric vehicles published in *Traffic Injury Prevention*.
+- **2025** – Paper on fNIRS signal quality in VR presented at IEEE BioSMART.
+
+## Teaching
+
+I am a teaching assistant in the School of Industrial and Systems Engineering. I teach lab sessions for Ergonomics and Simulation courses. For the Ergonomics labs, I worked with the instructor to plan how students use generative AI in their lab reports. See [Teaching](/teaching/) for details.
